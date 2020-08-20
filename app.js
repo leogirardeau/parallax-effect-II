@@ -8,5 +8,5 @@ document.addEventListener("mousemove", function (e) {
 
   bird.style.right = 100 + e.pageX / 2 + "px";
 
-  content.style.right = 100 + e.pageX / 2 + "px";
+  content.style.left = 100 + e.pageX / 2.5 + "px";
 });
